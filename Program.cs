@@ -4,7 +4,7 @@ var app = builder.Build();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
-
+//test
 app.MapPost("/calculate", (CalculateRequest req) =>
 {
     if (req.B == 0 && req.Op == "/")
